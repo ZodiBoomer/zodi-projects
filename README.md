@@ -14,5 +14,9 @@ Espace de travail pour les projets indépendants liés à l'écosystème Zodi qu
 - https://github.com/ZodiBoomer/zodi-linux — environnement Linux.
 - https://github.com/ZodiBoomer/zodi-tools — utilitaires partagés.
 
+## Projet actif : bot Discord
+
+Le bot Discord développé dans VS Code est suivi dans le dossier [discord-bot](./discord-bot/README.md). Son code source local n'est pas encore présent dans GitHub ; le dépôt ne contient pour l'instant que son cadrage documentaire. Ne pas inventer de fonctionnalités ni remplacer le projet local avant synchronisation et inspection.
+
 ## État initial
 Dépôt documentaire initialisé. Aucun projet n'a été déplacé ou supprimé.
