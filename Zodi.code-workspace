@@ -1,0 +1,29 @@
+{
+  "folders": [
+    {
+      "name": "Zodi Projects",
+      "path": "."
+    },
+    {
+      "name": "Zodi AI Core",
+      "path": "../zodi-ai"
+    },
+    {
+      "name": "Zodi AI Android",
+      "path": "../zodi-ai-android"
+    },
+    {
+      "name": "Zodi Linux",
+      "path": "../zodi-linux"
+    },
+    {
+      "name": "Zodi Tools",
+      "path": "../zodi-tools"
+    }
+  ],
+  "settings": {
+    "git.autofetch": true,
+    "git.confirmSync": true,
+    "security.workspace.trust.enabled": true
+  }
+}
