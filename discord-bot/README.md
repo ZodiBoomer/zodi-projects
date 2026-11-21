@@ -1,30 +1,56 @@
-# Bot Discord — projet VS Code
+# ZodiBot — documentation du projet
 
-Ce dossier est réservé au bot Discord actuellement développé dans VS Code.
+Ce dossier contient la documentation du bot Discord développé dans VS Code. Le code source actuellement présent sur GitHub est encore à la racine du dépôt `ZodiBoomer/zodi-projects` ; il n'a pas encore été déplacé dans ce dossier.
 
-## État actuel
-Le dépôt GitHub ne contient pas encore le code source du bot. Seuls les fichiers de documentation et de configuration générale du dépôt sont présents. Le code local doit être synchronisé depuis le PC avant toute refonte fonctionnelle.
+## État vérifié
 
-## Structure cible
+- Runtime : Node.js, CommonJS.
+- Bibliothèque Discord : `discord.js` 14.x.
+- Point d'entrée déclaré : `index.js` à la racine.
+- Interface desktop : Electron, avec `main.js` et `renderer.html` à la racine.
+- Dépendances déclarées : `discord.js`, `dotenv`, `express` ; Electron en dépendance de développement.
+- Le manifeste indique un script de démarrage du bot avec `node index.js`.
+
+## Incohérences à corriger avant déplacement du code
+
+- Le script `start:ui` référence `electron/main.js`, chemin absent de l'arborescence auditée.
+- Plusieurs scripts npm référencent `tools/`, dossier absent de l'arborescence auditée.
+- `main.js` charge `renderer.html` à la racine et tente de charger `index.js` depuis le dossier parent ; il faut revoir ces chemins ensemble si les fichiers sont déplacés.
+- Le dépôt contient des fichiers JSON et journaux dont le rôle et la sensibilité doivent être déterminés avant de les conserver dans Git.
+
+## Organisation recommandée
+
+La structure finale sera définie après analyse des imports et chemins réels. Cible indicative :
+
 ```text
-discord-bot/
-├── src/                 # commandes, événements et logique du bot
-├── tests/               # tests automatisés
-├── docs/                # documentation fonctionnelle
-├── .env.example         # noms des variables, sans valeurs secrètes
-├── .gitignore
-├── README.md
-└── package.json ou pyproject.toml
+src/
+  bot/
+  commands/
+  events/
+desktop/
+  main.js
+  renderer.html
+scripts/
+tests/
+docs/
+.env.example
+package.json
+README.md
 ```
 
-La structure réelle sera adaptée au langage et au framework déjà utilisés par le projet, sans imposer Node.js ou Python avant inspection.
+Cette structure est une proposition, pas une description de l'état actuel. Ne pas déplacer ou réécrire les fichiers avant validation des dépendances, des chemins et du déploiement.
 
 ## Sécurité
-- Ne jamais versionner `.env`, les tokens Discord, clés ou secrets.
-- Utiliser les secrets du fournisseur d'hébergement pour la production.
-- Activer uniquement les intents et permissions Discord nécessaires.
-- Valider et limiter les entrées des commandes.
-- Journaliser les erreurs sans exposer les tokens ni les données sensibles.
 
-## Prochaine étape
-Depuis le dossier local du bot, synchroniser le code vers ce dépôt dans le dossier `discord-bot/`, après vérification des fichiers à exclure. Puis documenter les commandes, événements, permissions, intents et procédures de lancement.
+- Ne jamais ajouter `.env`, tokens Discord, clés API ou identifiants à Git.
+- Utiliser les variables d'environnement et les secrets du fournisseur d'hébergement.
+- Le dépôt contient actuellement un `.env` suivi par Git. Son contenu n'a pas été consulté. Il faut vérifier l'exposition éventuelle et renouveler les secrets concernés avant de poursuivre.
+- Les journaux et fichiers runtime doivent être filtrés pour éviter d'enregistrer des secrets ou des données personnelles.
+
+## Critères de validation
+
+- [ ] Le bot démarre avec une commande documentée.
+- [ ] L'interface desktop démarre indépendamment du bot.
+- [ ] Les chemins relatifs fonctionnent après installation propre des dépendances.
+- [ ] Les tests couvrent au minimum le démarrage et les fonctions essentielles.
+- [ ] Le déploiement est validé sur une branche de test avant toute mise en production.
