@@ -33,12 +33,13 @@ Ne pas déplacer les fichiers avant d'avoir vérifié les chemins relatifs, les 
 
 ## Sécurité — action requise
 
-Un fichier `.env` est actuellement suivi par Git dans l'historique du dépôt, malgré sa présence dans `.gitignore`. Le contenu n'a pas été consulté pendant l'audit. Ne pas considérer `.gitignore` comme une protection suffisante pour un fichier déjà suivi.
+Un fichier `.env` était suivi par Git sur `main`, malgré sa présence dans `.gitignore`. Il a été retiré de la branche de travail `chore/audit-and-document-zodibot`, mais il reste présent dans l'historique antérieur et sur `main` tant que la PR n'est pas fusionnée. Le contenu n'a pas été consulté pendant l'audit.
 
-Avant de poursuivre :
-1. vérifier localement quelles variables et quels secrets ont pu être exposés ;
-2. renouveler tout token ou clé qui a été placé dans ce fichier ;
-3. retirer le fichier du suivi Git et traiter son historique avec une procédure adaptée, après sauvegarde et validation.
+Avant toute fusion ou réécriture d'historique :
+1. renouveler les tokens et clés qui ont pu figurer dans ce fichier (sans les communiquer ici) ;
+2. enregistrer les nouveaux secrets dans les variables d'environnement du service concerné, notamment Render si nécessaire ;
+3. préparer une sauvegarde et une réécriture coordonnée de l'historique Git pour supprimer les anciennes versions du fichier ;
+4. demander à chaque clone local de se resynchroniser après cette réécriture.
 
 Ne jamais publier de token Discord, clé API, mot de passe ou fichier `.env`.
 
