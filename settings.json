@@ -1,0 +1,7 @@
+{
+  "task.allowAutomaticTasks": "on",
+  "editor.lineNumbers": "on",
+  "explorer.autoReveal": true,
+  "workbench.editor.enablePreview": false,
+  "window.title": "${activeEditorLong}${separator}${rootName}"
+}

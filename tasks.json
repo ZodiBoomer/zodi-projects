@@ -1,0 +1,35 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Auto start ZodiBot local",
+      "type": "process",
+      "command": "wscript.exe",
+      "args": [
+        "${workspaceFolder}\\tools\\start-local-hidden.vbs"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "runOptions": {
+        "runOn": "folderOpen",
+        "reevaluateOnRerun": true
+      },
+      "presentation": {
+        "reveal": "never",
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Afficher lignes index.js",
+      "type": "shell",
+      "command": "node -e \"const fs=require('fs');const text=fs.readFileSync('index.js','utf8');console.log('index.js lignes :', text.split(/\\r?\\n/).length);\"",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

@@ -1,0 +1,817 @@
+{
+  "1116023794298007633": [
+    {
+      "ts": 1775068186523,
+      "text": "🤖 Zodi - Menu Principal — 🤖 ChatGPT\n🎮 Jeux",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1775068252602,
+      "text": "❌ Casino refuse: il faut 5000$ Memocoins (inventaire + banque).",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1775068284965,
+      "text": "❌ Seul l'utilisateur de la commande peut utiliser ces boutons.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1775068288386,
+      "text": "✅ @utilisateur a give 1e+22 Memocoins a @utilisateur. Solde : 1e+22 | Banque : 0 | Protections : 0",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1775068301178,
+      "text": "❌ Seul l'utilisateur de la commande peut utiliser ces boutons.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1775068368141,
+      "text": "✅ Message supprime.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1775068386334,
+      "text": "🤖 Zodi - Menu Principal — 🤖 ChatGPT\n🎮 Jeux",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1775068482063,
+      "text": "🌍 @utilisateur 🪓 Coupe: +5 bois. Loot: +1 pomme de terre.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1775068497724,
+      "text": "🌍 @utilisateur 🧱 Tu as transformé 1 bois en 4 planches.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1775068507082,
+      "text": "🌍 @utilisateur 🛠️ Table de craft fabriquée.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1775068519144,
+      "text": "🌍 @utilisateur 🧱 Tu as transformé 1 bois en 4 planches.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1775068526019,
+      "text": "🌍 @utilisateur 🪵 Tu as crafté 4 bâtons.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1775068536837,
+      "text": "🌍 @utilisateur 🧱 Tu as transformé 1 bois en 4 planches.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1775068558623,
+      "text": "🌍 @utilisateur ⛏️ Pioche en bois craftée. Bonus: +4 émeraudes.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1775068591018,
+      "text": "🌍 @utilisateur 🪓 Hache en bois craftée.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1775068603798,
+      "text": "🌍 @utilisateur 🪓 Hache sélectionnée: bois.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1775068611019,
+      "text": "🌍 @utilisateur 🌲 Forêt: tu coupes 5 bois. ⏱️ Prochaine exploration: 5m 26s. 🐾 Tu vois un Vache (30 PV).",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1775068792981,
+      "text": "✅ Message supprime.",
+      "actions": null,
+      "modal": null
+    }
+  ],
+  "1181849185268535326": [
+    {
+      "ts": 1777660790856,
+      "text": "🧱 Cybersécurité: @1277048561044947075 a placé @1181849185268535326 en quarantaine (30 jours).",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1777660847597,
+      "text": "🟢 Cybersécurité: @1277048561044947075 a retiré la quarantaine de @1181849185268535326.",
+      "actions": null,
+      "modal": null
+    }
+  ],
+  "733658739348865084": [
+    {
+      "ts": 1777748835409,
+      "text": "🧱 Cybersécurité: @1277048561044947075 a placé @733658739348865084 en quarantaine (30 jours).",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1777748866518,
+      "text": "🟢 Cybersécurité: @1277048561044947075 a retiré la quarantaine de @733658739348865084.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1781161458921,
+      "text": "💸 Vol réussi: @1277048561044947075 -> @733658739348865084.\nMontant: 10 Memocoins | +10 pour @1277048561044947075 | -10 pour @733658739348865084.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1788200053678,
+      "text": "🤖 Zodi - Menu Principal — 💬 Discuter avec Zodi\n🎮 Jeux",
+      "actions": [
+        [
+          {
+            "type": "button",
+            "customId": "menu_zodi_chat",
+            "label": "💬 Discuter avec Zodi",
+            "emoji": null,
+            "style": 1,
+            "disabled": false
+          },
+          {
+            "type": "button",
+            "customId": "menu_jeux",
+            "label": "🎮 Jeux",
+            "emoji": null,
+            "style": 3,
+            "disabled": false
+          },
+          {
+            "type": "button",
+            "customId": "admin_entry",
+            "label": "🔒 Admin",
+            "emoji": null,
+            "style": 4,
+            "disabled": false
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "customId": "delete_embed",
+            "label": "🗑️ Supprimer",
+            "emoji": null,
+            "style": 4,
+            "disabled": false
+          },
+          {
+            "type": "button",
+            "customId": "refresh_page",
+            "label": "🔄 Rafraîchir",
+            "emoji": null,
+            "style": 2,
+            "disabled": false
+          }
+        ]
+      ],
+      "modal": null
+    },
+    {
+      "ts": 1788200076727,
+      "text": "💬 Zodi prépare une réponse...",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1788200256002,
+      "text": "💬 **Message de @733658739348865084** :\nDit moi une blague débile",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1788200257074,
+      "text": "Explique-moi le probleme le plus simplement possible: ce que tu veux faire, puis ce qui bloque. Avec ca, je peux rester sur le bon sujet.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1788200285682,
+      "text": "💬 Zodi prépare une réponse...",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1788200294149,
+      "text": "💬 **Message de @733658739348865084** :\nRaconte moi une blague",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1788200295043,
+      "text": "Pourquoi les œufs n’aiment pas les blagues ?\nParce qu’ils pourraient se faire casser ! 😄",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1788200373754,
+      "text": "✅ Message supprimé.",
+      "actions": null,
+      "modal": null
+    }
+  ],
+  "1299744169618833458": [
+    {
+      "ts": 1777925146808,
+      "text": "🔇 Cybersécurité: @1277048561044947075 a réduit @1299744169618833458 en silence pendant 20j 0h 0m.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1777925202615,
+      "text": "🔓 Cybersécurité: @1277048561044947075 a retiré les sanctions de @1299744169618833458 (silence retiré).",
+      "actions": null,
+      "modal": null
+    }
+  ],
+  "1372189686801371258": [
+    {
+      "ts": 1780861871290,
+      "text": "🤖 Zodi - Menu Principal — 💬 Discuter avec Zodi\n🎮 Jeux",
+      "actions": [
+        [
+          {
+            "type": "button",
+            "customId": "menu_zodi_chat",
+            "label": "💬 Discuter avec Zodi",
+            "emoji": null,
+            "style": 1,
+            "disabled": false
+          },
+          {
+            "type": "button",
+            "customId": "menu_jeux",
+            "label": "🎮 Jeux",
+            "emoji": null,
+            "style": 3,
+            "disabled": false
+          },
+          {
+            "type": "button",
+            "customId": "admin_entry",
+            "label": "🔒 Admin",
+            "emoji": null,
+            "style": 4,
+            "disabled": false
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "customId": "delete_embed",
+            "label": "🗑️ Supprimer",
+            "emoji": null,
+            "style": 4,
+            "disabled": false
+          },
+          {
+            "type": "button",
+            "customId": "refresh_page",
+            "label": "🔄 Rafraîchir",
+            "emoji": null,
+            "style": 2,
+            "disabled": false
+          }
+        ]
+      ],
+      "modal": null
+    },
+    {
+      "ts": 1780861913953,
+      "text": "✅ Message supprimé.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1780861960034,
+      "text": "🤖 Zodi - Menu Principal — 💬 Discuter avec Zodi\n🎮 Jeux",
+      "actions": [
+        [
+          {
+            "type": "button",
+            "customId": "menu_zodi_chat",
+            "label": "💬 Discuter avec Zodi",
+            "emoji": null,
+            "style": 1,
+            "disabled": false
+          },
+          {
+            "type": "button",
+            "customId": "menu_jeux",
+            "label": "🎮 Jeux",
+            "emoji": null,
+            "style": 3,
+            "disabled": false
+          },
+          {
+            "type": "button",
+            "customId": "admin_entry",
+            "label": "🔒 Admin",
+            "emoji": null,
+            "style": 4,
+            "disabled": false
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "customId": "delete_embed",
+            "label": "🗑️ Supprimer",
+            "emoji": null,
+            "style": 4,
+            "disabled": false
+          },
+          {
+            "type": "button",
+            "customId": "refresh_page",
+            "label": "🔄 Rafraîchir",
+            "emoji": null,
+            "style": 2,
+            "disabled": false
+          }
+        ]
+      ],
+      "modal": null
+    },
+    {
+      "ts": 1780861977508,
+      "text": "💬 Zodi prépare une réponse...",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1780861978401,
+      "text": "💬 **Message de @1372189686801371258** :\nimport random\nimport pickle\n\n# =====================================\n# CONFIG\n# =====================================\n\nSAVE_POINT = \"Village du Premier Éveil\"\n\n# =====================================\n# INVENTAIRE\n# =====================================\n\nclass Inventory:\n\n    def __init__(self):\n\n        self.gold = 100\n\n        self.potions = {",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1780861978935,
+      "text": "Pour t'aider sans repondre a cote, j'ai besoin de deux choses: ce que tu voulais faire exactement, puis ce qui se passe a la place. Ensuite je resterai sur ce point-la.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1780862470870,
+      "text": "🤖 Zodi - Menu Principal — 💬 Discuter avec Zodi\n🎮 Jeux",
+      "actions": [
+        [
+          {
+            "type": "button",
+            "customId": "menu_zodi_chat",
+            "label": "💬 Discuter avec Zodi",
+            "emoji": null,
+            "style": 1,
+            "disabled": false
+          },
+          {
+            "type": "button",
+            "customId": "menu_jeux",
+            "label": "🎮 Jeux",
+            "emoji": null,
+            "style": 3,
+            "disabled": false
+          },
+          {
+            "type": "button",
+            "customId": "admin_entry",
+            "label": "🔒 Admin",
+            "emoji": null,
+            "style": 4,
+            "disabled": false
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "customId": "delete_embed",
+            "label": "🗑️ Supprimer",
+            "emoji": null,
+            "style": 4,
+            "disabled": false
+          },
+          {
+            "type": "button",
+            "customId": "refresh_page",
+            "label": "🔄 Rafraîchir",
+            "emoji": null,
+            "style": 2,
+            "disabled": false
+          }
+        ]
+      ],
+      "modal": null
+    },
+    {
+      "ts": 1780862482214,
+      "text": "💬 Zodi prépare une réponse...",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1780862483006,
+      "text": "💬 **Message de @1372189686801371258** :\nsalut comment tu va ?",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1780862483853,
+      "text": "Salut. Je suis la et je te suis dans la discussion. On peut reprendre sur le code si tu veux.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1780862546687,
+      "text": "💬 Zodi prépare une réponse...",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1780862547742,
+      "text": "💬 **Message de @1372189686801371258** :\nOk bah enft le ode ue je t'ai donné c le jeu que je suis en train de creer il est bien ?",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1780862548448,
+      "text": "Explique-moi le probleme le plus simplement possible: ce que tu veux faire, puis ce qui bloque. Avec ca, je peux rester sur le bon sujet.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1781025016684,
+      "text": "❌ Seul l'utilisateur de la commande peut utiliser ces boutons.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1781025025309,
+      "text": "🤖 Zodi - Menu Principal — 💬 Discuter avec Zodi\n🎮 Jeux",
+      "actions": [
+        [
+          {
+            "type": "button",
+            "customId": "menu_zodi_chat",
+            "label": "💬 Discuter avec Zodi",
+            "emoji": null,
+            "style": 1,
+            "disabled": false
+          },
+          {
+            "type": "button",
+            "customId": "menu_jeux",
+            "label": "🎮 Jeux",
+            "emoji": null,
+            "style": 3,
+            "disabled": false
+          },
+          {
+            "type": "button",
+            "customId": "admin_entry",
+            "label": "🔒 Admin",
+            "emoji": null,
+            "style": 4,
+            "disabled": false
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "customId": "delete_embed",
+            "label": "🗑️ Supprimer",
+            "emoji": null,
+            "style": 4,
+            "disabled": false
+          },
+          {
+            "type": "button",
+            "customId": "refresh_page",
+            "label": "🔄 Rafraîchir",
+            "emoji": null,
+            "style": 2,
+            "disabled": false
+          }
+        ]
+      ],
+      "modal": null
+    },
+    {
+      "ts": 1781025033951,
+      "text": "✅ Message supprimé.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1781025086855,
+      "text": "🤖 Zodi - Menu Principal — 💬 Discuter avec Zodi\n🎮 Jeux",
+      "actions": [
+        [
+          {
+            "type": "button",
+            "customId": "menu_zodi_chat",
+            "label": "💬 Discuter avec Zodi",
+            "emoji": null,
+            "style": 1,
+            "disabled": false
+          },
+          {
+            "type": "button",
+            "customId": "menu_jeux",
+            "label": "🎮 Jeux",
+            "emoji": null,
+            "style": 3,
+            "disabled": false
+          },
+          {
+            "type": "button",
+            "customId": "admin_entry",
+            "label": "🔒 Admin",
+            "emoji": null,
+            "style": 4,
+            "disabled": false
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "customId": "delete_embed",
+            "label": "🗑️ Supprimer",
+            "emoji": null,
+            "style": 4,
+            "disabled": false
+          },
+          {
+            "type": "button",
+            "customId": "refresh_page",
+            "label": "🔄 Rafraîchir",
+            "emoji": null,
+            "style": 2,
+            "disabled": false
+          }
+        ]
+      ],
+      "modal": null
+    },
+    {
+      "ts": 1781025111718,
+      "text": "💬 Zodi prépare une réponse...",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1781025112453,
+      "text": "💬 **Message de @1372189686801371258** :\nSalut Zodi comment tu va ?",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1781025113144,
+      "text": "Explique-moi le probleme le plus simplement possible: ce que tu veux faire, puis ce qui bloque. Avec ca, je peux rester sur le bon sujet.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1781025121978,
+      "text": "❌ Accès réservé (admin unique).",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1781025133288,
+      "text": "✅ Message supprimé.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1781025250503,
+      "text": "🧱 Cybersécurité: @1277048561044947075 a placé @1372189686801371258 en quarantaine pendant 1m.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1781025263077,
+      "text": "❌ Seul l'utilisateur de la commande peut utiliser ces boutons.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1781028503135,
+      "text": "🔇 Cybersécurité: @1277048561044947075 a réduit @1372189686801371258 en silence pendant 1j 0h 0m.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1781028824244,
+      "text": "🟢 Cybersécurité: @1277048561044947075 a retiré la quarantaine de @1372189686801371258.",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1781028854626,
+      "text": "🔓 Cybersécurité: @1277048561044947075 a retiré les sanctions de @1372189686801371258 (silence retiré).",
+      "actions": null,
+      "modal": null
+    },
+    {
+      "ts": 1781029148919,
+      "text": "🤖 Zodi - Menu Principal — 💬 Discuter avec Zodi\n🎮 Jeux",
+      "actions": [
+        [
+          {
+            "type": "button",
+            "customId": "menu_zodi_chat",
+            "label": "💬 Discuter avec Zodi",
+            "emoji": null,
+            "style": 1,
+            "disabled": false
+          },
+          {
+            "type": "button",
+            "customId": "menu_jeux",
+            "label": "🎮 Jeux",
+            "emoji": null,
+            "style": 3,
+            "disabled": false
+          },
+          {
+            "type": "button",
+            "customId": "admin_entry",
+            "label": "🔒 Admin",
+            "emoji": null,
+            "style": 4,
+            "disabled": false
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "customId": "delete_embed",
+            "label": "🗑️ Supprimer",
+            "emoji": null,
+            "style": 4,
+            "disabled": false
+          },
+          {
+            "type": "button",
+            "customId": "refresh_page",
+            "label": "🔄 Rafraîchir",
+            "emoji": null,
+            "style": 2,
+            "disabled": false
+          }
+        ]
+      ],
+      "modal": null
+    },
+    {
+      "ts": 1781029152349,
+      "text": "❌ Accès réservé (admin unique).",
+      "actions": null,
+      "modal": null
+    }
+  ],
+  "1337434357828419677": [
+    {
+      "ts": 1782761204807,
+      "text": "🤖 Zodi - Menu Principal — 💬 Discuter avec Zodi\n🎮 Jeux",
+      "actions": [
+        [
+          {
+            "type": "button",
+            "customId": "menu_zodi_chat",
+            "label": "💬 Discuter avec Zodi",
+            "emoji": null,
+            "style": 1,
+            "disabled": false
+          },
+          {
+            "type": "button",
+            "customId": "menu_jeux",
+            "label": "🎮 Jeux",
+            "emoji": null,
+            "style": 3,
+            "disabled": false
+          },
+          {
+            "type": "button",
+            "customId": "admin_entry",
+            "label": "🔒 Admin",
+            "emoji": null,
+            "style": 4,
+            "disabled": false
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "customId": "delete_embed",
+            "label": "🗑️ Supprimer",
+            "emoji": null,
+            "style": 4,
+            "disabled": false
+          },
+          {
+            "type": "button",
+            "customId": "refresh_page",
+            "label": "🔄 Rafraîchir",
+            "emoji": null,
+            "style": 2,
+            "disabled": false
+          }
+        ]
+      ],
+      "modal": null
+    },
+    {
+      "ts": 1782761239702,
+      "text": "✅ Message supprimé.",
+      "actions": null,
+      "modal": null
+    }
+  ],
+  "1536713445238382622": [
+    {
+      "ts": 1786530941236,
+      "text": "🤖 Zodi - Menu Principal — 💬 Discuter avec Zodi\n🎮 Jeux",
+      "actions": [
+        [
+          {
+            "type": "button",
+            "customId": "menu_zodi_chat",
+            "label": "💬 Discuter avec Zodi",
+            "emoji": null,
+            "style": 1,
+            "disabled": false
+          },
+          {
+            "type": "button",
+            "customId": "menu_jeux",
+            "label": "🎮 Jeux",
+            "emoji": null,
+            "style": 3,
+            "disabled": false
+          },
+          {
+            "type": "button",
+            "customId": "admin_entry",
+            "label": "🔒 Admin",
+            "emoji": null,
+            "style": 4,
+            "disabled": false
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "customId": "delete_embed",
+            "label": "🗑️ Supprimer",
+            "emoji": null,
+            "style": 4,
+            "disabled": false
+          },
+          {
+            "type": "button",
+            "customId": "refresh_page",
+            "label": "🔄 Rafraîchir",
+            "emoji": null,
+            "style": 2,
+            "disabled": false
+          }
+        ]
+      ],
+      "modal": null
+    },
+    {
+      "ts": 1786530951923,
+      "text": "❌ Accès réservé (admin unique).",
+      "actions": null,
+      "modal": null
+    }
+  ]
+}
