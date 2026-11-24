@@ -20,3 +20,8 @@ Le bot Discord développé dans VS Code est suivi dans le dossier [discord-bot](
 
 ## État initial
 Dépôt documentaire initialisé. Aucun projet n'a été déplacé ou supprimé.
+
+
+## Zodi AI Desktop launchers
+
+Le dossier `apps/zodi-ai-desktop` contient les lanceurs Windows et Linux. Ils ouvrent l'application web partagée dans le navigateur système afin de conserver une seule authentification Google, un seul historique et une seule mémoire. Les builds Windows (.exe) et Linux (.AppImage) sont générés par GitHub Actions.
