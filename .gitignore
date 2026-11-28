@@ -1,24 +1,27 @@
 # Secrets
 .env
 .env.*
-!.env.example
 *.pem
 *.key
 secrets/
 credentials/
 
-# Common build outputs
+# Dependencies and generated files
 node_modules/
-.venv/
-venv/
-__pycache__/
-*.py[cod]
 dist/
 build/
 coverage/
-.cache/
 
-# Temporary / logs
+# Runtime state and personal data (do not commit)
+data.json
+action_log.json
+bot_status.json
+presence.json
+restart_notice.json
+bot_profile.json
+ui_binding.json
+ui_instance.json
+.zodibot.lock
 *.log
 logs/
 tmp/
