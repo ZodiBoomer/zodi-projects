@@ -1,0 +1,46 @@
+name: ZodiBot CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "discord-bot/**"
+      - ".github/workflows/zodibot-ci.yml"
+  pull_request:
+    paths:
+      - "discord-bot/**"
+      - ".github/workflows/zodibot-ci.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Install and verify ZodiBot
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: discord-bot
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: discord-bot/package-lock.json
+
+      - name: Install locked dependencies
+        run: npm ci
+
+      - name: Check JavaScript syntax
+        run: npm test
+
+      - name: Verify no Electron or dotenv runtime dependencies
+        shell: bash
+        run: |
+          node -e "const p=require('./package.json'); if(p.dependencies?.electron || p.devDependencies?.electron || p.dependencies?.dotenv || p.devDependencies?.dotenv) process.exit(1)"
+          test ! -e .env
