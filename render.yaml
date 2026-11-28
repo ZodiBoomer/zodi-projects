@@ -1,0 +1,11 @@
+services:
+  - type: worker
+    name: zodibot
+    runtime: node
+    plan: starter
+    region: frankfurt
+    buildCommand: npm ci
+    startCommand: npm start
+    envVars:
+      - key: DISCORD_TOKEN
+        sync: false
