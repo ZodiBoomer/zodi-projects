@@ -1,0 +1,21 @@
+{
+  "name": "zodibot",
+  "version": "1.0.0",
+  "description": "Bot Discord Node.js (discord.js v14), exécuté sur Replit via Replit Secrets.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:bot": "node index.js",
+    "stop": "node tools/stop.js",
+    "test": "node --check index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {}
+}

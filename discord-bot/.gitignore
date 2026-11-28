@@ -1,0 +1,20 @@
+# Secrets and environment files: configure secrets in Replit
+.env
+.env.*
+node_modules/
+
+# Runtime state and personal data
+data.json
+action_log.json
+bot_status.json
+presence.json
+restart_notice.json
+bot_profile.json
+ui_binding.json
+ui_instance.json
+.zodibot.lock
+*.log
+
+# OS / editor files
+.DS_Store
+Thumbs.db

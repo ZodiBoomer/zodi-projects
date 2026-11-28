@@ -16,7 +16,7 @@ Espace de travail pour les projets indépendants liés à l'écosystème Zodi qu
 
 ## Projet actif : bot Discord
 
-Le bot Discord développé dans VS Code est suivi dans le dossier [discord-bot](./discord-bot/README.md). Son code source local n'est pas encore présent dans GitHub ; le dépôt ne contient pour l'instant que son cadrage documentaire. Ne pas inventer de fonctionnalités ni remplacer le projet local avant synchronisation et inspection.
+Le code source du bot Discord est maintenant versionné dans [discord-bot](./discord-bot/README.md). Il est prévu pour fonctionner sur Replit Reserved VM, avec le token Discord stocké exclusivement dans Replit Secrets.
 
-## État initial
-Dépôt documentaire initialisé. Aucun projet n'a été déplacé ou supprimé.
+## Sécurité
+Ne jamais committer de token, fichier `.env`, données d'exécution ou journaux. Si un secret a été publié, le révoquer et en générer un nouveau.
