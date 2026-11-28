@@ -1,22 +1,27 @@
 # Zodi Projects
 
-Espace de travail pour les projets indépendants liés à l'écosystème Zodi qui ne nécessitent pas encore leur propre dépôt.
+Espace de travail pour les projets indépendants liés à l'écosystème Zodi.
 
-## Utilisation
-- Un dossier par projet, avec un README local.
-- Décrire l'objectif, le périmètre, les dépendances et l'état de chaque projet.
-- Déplacer un projet vers un dépôt dédié uniquement lorsqu'un besoin clair le justifie.
-- Garder ici les prototypes et expérimentations qui ne relèvent pas du moteur, de l'application Android, de Linux ou des outils partagés.
+## Démarrage Replit — ZodiBot
 
-## Organisation de l'écosystème
+Ce dépôt est directement importable dans Replit. Le point d'entrée racine installe les dépendances du bot situé dans `discord-bot/`, puis lance le bot avec `npm start`.
+
+1. Importer le dépôt GitHub dans Replit.
+2. Ajouter le secret `DISCORD_TOKEN` dans **Secrets**.
+3. Pour une publication permanente, utiliser **Reserved VM** (Web server), avec le port local `3000`.
+4. Ajouter aussi `DISCORD_TOKEN` dans les secrets de la publication (**Published App Secrets**) si Replit les gère séparément.
+
+Le token est lu depuis `process.env.DISCORD_TOKEN`. Aucun fichier `.env` n'est utilisé. Ne jamais committer de token.
+
+## Code source du bot
+
+Le code canonique est dans [discord-bot](./discord-bot/README.md).
+
+## Autres projets de l'écosystème
 - https://github.com/ZodiBoomer/zodi-ai — moteur central et API.
 - https://github.com/ZodiBoomer/zodi-ai-android — application Android.
 - https://github.com/ZodiBoomer/zodi-linux — environnement Linux.
 - https://github.com/ZodiBoomer/zodi-tools — utilitaires partagés.
-
-## Projet actif : bot Discord
-
-Le code source du bot Discord est maintenant versionné dans [discord-bot](./discord-bot/README.md). Il est prévu pour fonctionner sur Replit Reserved VM, avec le token Discord stocké exclusivement dans Replit Secrets.
 
 ## Sécurité
 Ne jamais committer de token, fichier `.env`, données d'exécution ou journaux. Si un secret a été publié, le révoquer et en générer un nouveau.

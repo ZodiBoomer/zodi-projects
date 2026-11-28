@@ -1,0 +1,14 @@
+{
+  "name": "zodi-projects-replit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Replit entry point for the ZodiBot Discord bot",
+  "scripts": {
+    "postinstall": "npm --prefix discord-bot ci",
+    "start": "npm --prefix discord-bot start",
+    "test": "npm --prefix discord-bot test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
